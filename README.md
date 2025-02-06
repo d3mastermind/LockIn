@@ -2,8 +2,14 @@
 
 Lock In is a Flutter application that provides a simple interface for encrypting and decrypting text using AES (Advanced Encryption Standard) encryption in CBC (Cipher Block Chaining) mode.
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg)](https://flutter.dev)
+[![Flutter](https://img.shields.io/badge/Flutter-2.0+-blue.svg)](https://flutter.dev)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+## Quick Start
+
+- 📱 [Download APK](https://github.com/d3mastermind/LockIn/blob/ac9e79f1b63cea27fa6f040ae8352f20bc740088/APK/app-release.apk)
+- 🎮 [Try Live Demo](https://appetize.io/app/b_zgb7ifmtdv433tcxtzvwna3kfu)
+
 
 ## Features
 
@@ -96,7 +102,6 @@ String decrypted = CryptService.decryptText(encryptedText, key);
 
 - The app uses a fixed IV for simplicity. In a production environment, you should use a random IV for each encryption
 - The key padding mechanism is basic. Consider using a more secure key derivation function for production use
-- This implementation is suitable for learning and demonstration purposes but may not be appropriate for highly sensitive data
 
 ## Installation
 
@@ -124,8 +129,8 @@ flutter run
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+
 ## Links
 
-- [GitHub Repository](https://github.com/d3mastermind/LockIn)
 - [Flutter Documentation](https://flutter.dev/docs)
 - [encrypt package](https://pub.dev/packages/encrypt)
